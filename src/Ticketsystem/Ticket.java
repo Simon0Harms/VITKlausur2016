@@ -7,7 +7,8 @@ private Veranstaltung veranstaltung;
 
 public Ticket(int nummer, Veranstaltung veranstaltung)
 {
-	nummer++;
+	this.nummer=nummer;
+	this.veranstaltung=veranstaltung;
 }
 
 public void drucke()
@@ -15,6 +16,7 @@ public void drucke()
 	//TODO Designer beauftragen
 	System.out.println(veranstaltung.getName());
 	System.out.println("Ort: "+veranstaltung.getOrt());
+	System.out.println("Datum: "+veranstaltung.getDatum());
 	//System.out.println("Band: "+veranstaltung.getHauptact().getName());
 	System.out.println("Ticketnummer: "+nummer);
 }

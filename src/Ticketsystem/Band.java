@@ -14,7 +14,7 @@ public Band(String name)
 
 public void fuegeKonzertHinzu(Rockkonzert rocken)
 {
-	konzert.add(rocken);
+	this.konzert.add(rocken);
 }
 
 public String getName()
