@@ -14,9 +14,10 @@ public Ticket(int nummer, Veranstaltung veranstaltung)
 public void drucke()
 {
 	//TODO Designer beauftragen
-	System.out.println(veranstaltung.getName());
-	System.out.println("Ort: "+veranstaltung.getOrt());
-	System.out.println("Datum: "+veranstaltung.getDatum());
+	System.out.println(veranstaltung.gibInfo());
+	//System.out.println(veranstaltung.getName());
+	//System.out.println("Ort: "+veranstaltung.getOrt());
+	//System.out.println("Datum: "+veranstaltung.getDatum());
 	//System.out.println("Band: "+veranstaltung.getHauptact().getName());
 	System.out.println("Ticketnummer: "+nummer);
 }
